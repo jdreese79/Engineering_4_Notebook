@@ -17,8 +17,9 @@ This is where all of my stuff will go!
 
 ## Python Program 02- Quadratic Solver
 ### Lessons Learned
-##### This assignmnet was a lot like the Python Calculator, except that for this one we had to create two original functions.
+##### This assignment was a lot like the Python Calculator, except that for this one we had to create two original functions.
 ### Code
+##### [Quadratic Code](https://github.com/jdreese79/Engineering_4_Notebook/blob/master/Python/quadratic%20solver.py)
 
 ## Hello Git
 ### Lessons Learned
