@@ -34,6 +34,6 @@ This is where all of my stuff will go!
 
 ## Strings and Loops
 ### Lessons Learned
-#####
+##### For this assignment, we had to code a program that takes a simple sentence and splits it into an array of words. At first, we couldn't figure out how to put a loop inside of a loop, but then we got help and it started working.
 ### Code
 ##### [Strings and Loops Code](https://github.com/jdreese79/Engineering_4_Notebook/blob/master/Python/stringsandloops.py)
