@@ -31,3 +31,9 @@ This is where all of my stuff will go!
 ##### During this assignment, we learned how to edit someone elses repository using forks and clones. First we went to the page we wanted to edit (in this case it was a chart that listed our names and a fact about ourselves) and forked it on github.com. We then went to terminal and cloned it onto our pi. We opened the file, made our edits, then commited and pushed it back to github. 
 ### Code
 ##### [Canvas page for forks and clones directions](https://cvilleschools.instructure.com/courses/24257/assignments/135932?module_item_id=395864)
+
+## Strings and Loops
+### Lessons Learned
+#####
+### Code
+#####
