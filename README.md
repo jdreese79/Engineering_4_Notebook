@@ -36,4 +36,4 @@ This is where all of my stuff will go!
 ### Lessons Learned
 #####
 ### Code
-#####
+##### [Strings and Loops Code](https://github.com/jdreese79/Engineering_4_Notebook/blob/master/Python/stringsandloops.py)
