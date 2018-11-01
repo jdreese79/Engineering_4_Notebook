@@ -1,5 +1,5 @@
 body {
-	background color: #ff0000;
+	background color: #ff3700;
 	color: white; 
 	text-align: center;
 	vertical-align: center;
@@ -7,15 +7,15 @@ body {
 
 }
 
-button {
+button1 {
 
-	background-color: #bfbfbf
+	background-color: #ff000
 	border: none;
 	color: white;
-	padding: 15px 32 px;
+	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
-	dsiplay: incline-block;
+	display: incline-block;
 	font-size: 20px;
 	margin: 4px 2px;
 	cursor: pointer;
@@ -27,6 +27,67 @@ button {
 	display: inl:
 	width: 60px;
 	height: 34 px;
+
+}
+
+#text1 {
+	display: incline-block;
+	font-size: 45px;
+	float: left;
+	width: 50%;
+
+}
+
+#text2 {
+	display: incline-block;
+	font-size: 45px;
+	float: left;
+	width: 50%;
+
+}
+
+.swtich input {
+	display: none;
+
+}
+
+.slider { 
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #cccccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 34px;
+
+}
+
+.slider:before {
+	poition: absolute;
+	content: "";
+	width: 26px;
+	height: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 50%;
+
+}
+
+input:checked + .slider {
+	background-color: #3333ff;
+	
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translatex(26px);
+	-ms-transform: translatex(26px);
+	transform: translatex(26px):
 
 }
 

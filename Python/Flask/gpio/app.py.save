@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request
 import RPi.GPIO as GPIO
 
@@ -14,10 +15,10 @@ def index():
 	led1 = GPIO.input(17)
 	led2 = GPIO.input(18)
 	if request.method =="POST":
-		if('hiddenElement1' in request.form):
+		if('hiddenElement1' in request.form);
 			if(led1 == True):
 				GPIO.output(17, GPIO.LOW)
-				msg1 = "LED 1 is off"
+				msg = "LED 1 is off"
 				checked1 = ""
 			else:
 				GPIO.output(17, GPIO.HIGH)
@@ -25,7 +26,7 @@ def index():
 				checked1 = "checked"
 			if(led2 == True):
 				msg2 = "LED 2 is on"
-				checked2 ="checked"
+				checked2 ="checked'
 			else:
 				msg2 = "LED 2 is off"
 				checked2 = ""
