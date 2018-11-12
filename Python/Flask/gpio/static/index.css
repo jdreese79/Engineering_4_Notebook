@@ -1,48 +1,24 @@
 body {
-	background color: #ff3700;
-	color: white; 
+	background-color: #99ccff ;
+	color: blue; 
 	text-align: center;
 	vertical-align: center;
 	font-family: "Trebuchet MS". Helvetica, sans-serif;
-
+	font-color: blue;
 }
 
-button1 {
+button {
 
-	background-color: #ff000
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: incline-block;
-	font-size: 20px;
-	margin: 4px 2px;
-	cursor: pointer;
-	
-}
+	font-size: 400px;
+	border-radius: 50%;
+
+} 
 
 .switch {
 	position: relative;
 	display: inl:
-	width: 60px;
-	height: 34 px;
-
-}
-
-#text1 {
-	display: incline-block;
-	font-size: 45px;
-	float: left;
-	width: 50%;
-
-}
-
-#text2 {
-	display: incline-block;
-	font-size: 45px;
-	float: left;
-	width: 50%;
+	width: 80px;
+	height: 50 px;
 
 }
 
@@ -93,18 +69,20 @@ input:checked + .slider:before {
 
 #text1 {
 	display: inline-block;
-	font-size: 45 px;
+	font-size: 300 px;
 	float: left;
 	width: 50%;
+	color: blue;
 
 }
 
 #text2 {
 	display: inline-block;
-	font-size: 45 px;
-	float: left:
+	font-size: 300 px;
+	float: left:			
 	width: 50%;
-
+	color: blue; 
+	
 }
 
 	
